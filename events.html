@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <link rel="icon" href="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625866316/icons_krea5q.png">
+            
+  <link rel="stylesheet" href="events.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/Team-Grid.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+
+
+
+
+
+  </head>
+  <body>
+   <!--NAVBAR-->
+   <!--NAVBAR-->
+   <div class="nav-bar" id="nav-bar">
+    <div class="max-width">
+<div class="wrapper">
+  <nav>
+    <input type="checkbox" id="show-search">
+    <input type="checkbox" id="show-menu">
+    <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+    <div class="content">
+        <div class="logo"><a href="index.html"><img class="logo" src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625866316/logo_lye5ke.png"></a> </div>
+      <ul class="links nav-ul ">
+        <li>
+          <a href="aboutus.html" class="desktop-link">ABOUT US</a>
+          <input type="checkbox" id="show-about">
+          <label for="show-about"><a href="aboutus.html">ABOUT US</a><span style="color: #fff;" class="open-menu fa fa-plus"></span></label>
+          <ul>
+            <li><a class="drop" href="org.html">ORGANISATIONS</a></li>
+            <li><a class="drop" href="boardmember.html">BOARD MEMBERS</a></li>
+            <li><a class="drop" href="team.html">TEAM MEMBERS</a></li>
+            <li><a class="drop" href="testimonials.html">TESTIMONIALS</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="story.html" class="desktop-link">WHAT WE DO</a>
+          <input type="checkbox" id="show-work">
+          <label for="show-work" style="padding-left: 35px;">WHAT WE DO</label>
+          <ul>
+            <li><a class="drop" href="health.html">HEALTH</a></li>
+            <li><a class="drop" href="education.html">EDUCATION</a></li>
+            <li><a class="drop" href="environment.html">ENVIRONMENT</a></li>
+            <li><a class="drop" href="women.html">GIRL CHILD</a></li>
+            <li><a class="drop" href="story.html">SUCCESS STORY</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="events.html" class="desktop-link">EVENTS</a>
+          <input type="checkbox" id="show-events">
+          <label for="show-events" style="padding-left: 35px;">EVENTS</label>
+          <ul>
+            <li><a class="drop" href="events.html">CAMPAIGNS</a></li>
+            <li><a class="drop" href="online.html">VIRTUAL</a></li>
+            <li><a class="drop" href="gallery.html">GALLERY</a></li>
+            <li><a class="drop" href="Video Gallery.html">VIDEO GALLERY</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="form.html" class="desktop-link">JOIN US</a>
+          <input type="checkbox" id="show-get">
+          <label for="show-get"><a href="form.html">JOIN US</a></label>
+        </li>
+        <li>
+          <a href="contact.html" class="desktop-link">CONTACT US</a>
+          <input type="checkbox" id="show-features">
+          <label for="show-features" style="margin-top: -30px;"><a href="contact.html">CONTACT US</a></label>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+    </div>
+</div>
+
+  <!-- home -->
+  <main id="maincontent" class="new-events">
+    <section>
+        <div class="hero-banner">
+          <video width="100%" height="505" controls loop autoplay>
+            <source src="https://res.cloudinary.com/dm8plkfnz/video/upload/v1626804957/events/VD_j3w2zi.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <h1>Our Events &amp; Activities</h1>
+            </div>
+        </div>
+        <div class="description">
+            <p class="poppinspara"></p>
+        </div>
+    </section>
+
+    <section id="Events">
+        <h2 class="poppinshead">Events</h2>
+        <div class="container">
+           
+          <div class="item">
+            <div class="video">
+              <video width="1140px" height="480px" controls>
+                <source src="https://res.cloudinary.com/dm8plkfnz/video/upload/v1636869948/events/Untitled_tbzidb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+
+            </div>
+            <div class="content">
+                <div class="readmore-content">
+                  <h3>Mask Distribution</h3>
+                 <p>
+                  The Navratri festival is coming to an end, and Team Zarurat as always, never misses an opportunity to make the students feel every inch of happiness. This time we welcomed our freshers alongside our students and celebrated the festival with utmost joy by playing a fun activity. We disturbed masks and sanitizers to our students because we all know there are no smiles without safety.  
+                 </p></div>
+            </div>
+        </div>
+          
+            <div class="item">
+                <div class="image">
+                    <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867659/events/pre_jn3kpg.png" alt="" data-pagespeed-url-hash="2398587271" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    <h3 class="FT-popin">Pre-Rhythm</h3>
+                </div>
+                <div class="content">
+                    <div class="readmore-content">
+                     <p>
+                      Zarurat's Pre-Rhythm is an event that is full of excitement and fun. Children from various NGO's like Umaaang also join the event and witness the adrenaline rush. Also, it acts as a platform for the children under the wings of Abhudaya to showcase their hidden talents through dance performance, singing and much more. It's all about Dance, Music, Talks and Celebration. 
+                     </p></div>
+                </div>
+            </div>
+
+            <div class="item">
+                    <div class="image">
+                    <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867666/events/vastra_mwqnba.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    <h3 class="FT-popin">Vastra Samman</h3>
+                </div>
+                <div class="content">
+                    <div class="readmore-content">
+                      <p>Vastra saman is one of the biggest events of SOCH. It is a 10 day-long event involving a lot of participation from our scholars of JECRC. This event mainly focuses on spreading smiles on the face of small children. Donated clothes are distributed to the unprivileged ones.        </p>
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="item">
+              <div class="image">
+              <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867654/events/fali_w0srkw.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              <h3 class="FT-popin">Felicitaion Day</h3>
+          </div>
+          <div class="content">
+              <div class="readmore-content">
+                <p>Felicitation day is one of the biggest events of the social vertical Aashayein. In this event, the social group awards the people who donated their blood to the Annual Blood Donation Camp. The motto of this event is to motivate people to donate their blood. It is a way of thanksgiving given to all the people who thought of saving a life and donated blood.  </p>
+              </div>
+          </div>
+         
+      </div>
+      <div class="item">
+        <div class="image">
+        <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867649/events/celeb_peavb5.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <h3 class="FT-popin">Celebrating Innocence</h3>
+      </div>
+      <div class="content">
+        <div class="readmore-content">
+          <p>"Celebrating Innocence" is an annual fest organized by Zarurat on 14th March every year it is one of the prestigious societies which has been constantly working towards the enlightenment of young minds often deprived of basic education.      </p>
+        </div>
+      </div>
+      
+      </div>
+      
+      <div class="item">
+        <div class="image">
+        <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867659/events/old_hdeof3.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <h3 class="FT-popin">Old-Age Home Visit</h3>
+      </div>
+      <div class="content">
+        <div class="readmore-content">
+          <p>Life is lived by all but the difference comes from how the person lived it. The ways vary as some are rich and some are poor but we have forgotten that everyone has a right to live a happy life but each and everyone has their definition of it. Team Aashayein have one for them too by visiting old age home. From visiting residents for hours, playing games with them, enjoying meals to listening to their lives experience Team Aashayein completes their successful day. </p>
+        </div>
+      </div>
+      
+      </div>
+      <div class="item">
+        <div class="image">
+        <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867653/events/girl_ezx2xx.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <h3 class="FT-popin">International Girl Child Day</h3>
+    </div>
+    <div class="content">
+        <div class="readmore-content">
+          <p>These two days are celebrated with great pleasure by team Suhasini. They try to create more and more awareness among the people about girl child on this day. They tell how a woman plays an important role in one's life by many plays and rallies. Through the art of dance, plays etc they try to create a beautiful impact on these days.  </p>
+        </div>
+    </div>
+   
+</div>
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867653/events/clean_ytpzda.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Cleanliness Drive - Statue Circle</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>Cleanliness is the state of being clean. Staying clean is as important as eating, sleep, drink etc. Keeping the environment clean should be a daily habit of a human being. Team Soch runs much regular cleanliness drives in Jaipur not only to clean the point but also they can provide the proper awareness of people towards a healthy and clean environment. Team Soch has run drives on statue circle, many parks, many public areas so that they can aware people at their best as cleanliness of any kind have equal importance.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867653/events/diya_lt9xqu.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Diya Decoration</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>Diyas are a symbol of hope and light and Zarurat's Diya Decoration Event is one of its kind. Every year students from our institute along with all the faculty members gather at the centre lawn and even people from outside the University gather to decorate the Diyas.
+      These diyas are then sold to students and the collected money is used to make the Diwali of these children full of lights.</p>
+  </div>
+</div>
+
+</div>
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867660/events/orphan_ka3kof.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Orphanage Visit</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>Sometimes we have many reasons to be happy at the same time when others haven't. Giving own happiness to another is not possible but spreading happiness to them is in our hands. Team soch also provides their hands to those sweet faces by visiting them and spend a whole day playing games with those children, watching their favourite cartoon, cooking their food, teaching them and do many extracurricular activities for their development.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867665/events/sans_bpcma0.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Makkar-sakranti</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>Makar Sankranti is one of the biggest festivals in India. On this day we all gather with children at the Central lawn and have fun. We celebrate the festival with zest and joy. We distribute Kites and sweets to the children and together we fly kites. Kites represent our strength as they go higher and higher in the sky.
+    </p>
+  </div>
+</div>
+
+</div>
+
+
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867657/events/joy_v1afre.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Joy Of Giving Week</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>Joy of giving is also one of its kind which is organised by Zarurat-the help beyond. It is a 7-day lasting event comprising a lot of co-curricular activities for the children under the benefit of Abhudaya. It is all about dance, music, poems, band performance and whatnot.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867664/events/sdp_aayplb.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">SDP Donation</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>SDP or Single Donor Platelets donation camps are also conducted by team Soch. Through these camps, we get the SDP of a person which is more potent than domain platelets and can prove more necessary than them. These type of camps and the proper use of SDP is not common nowadays, so it is the initiative taken by team Soch so we can create more and more awareness among people and tells about its importance.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867660/events/red_uqknoh.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Story Behind Red</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>This is the camp conducted by team Suhasini in various schools, locality to promote awareness regarding the menstruation cycle among girls. This camp collectively tells the girls about the menstruation cycle and how it appears. Not only this we tell them to choose PADS OVER CLOTHES so that they can know the benefits of using it.</p>
+  </div>
+</div>
+
+</div>
+
+
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867660/events/nukkad_x7bpur.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Nukkad Natak</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>Nukkad Natak is organised by Suhasini. It is all about roadshows, motivating people for the education of girl child. Every year Suhasini organise such roadshows with positive ideas and thoughts throughout Jaipur city last time it was organised at Albert Hall.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867665/events/survey_af8u0o.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Survey's By Suhasini</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>Suhasini also holds the Responsibility to conduct surveys regularly. They visit government schools and perform their survey. Their data includes a number of children studying, quality of education, quality of mid-day meal food and also the count of girl children in a particular school. These data are used for making future target plans.</p>
+  </div>
+</div>
+
+</div>
+
+
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867664/events/school_ldngqw.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">School Visit</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>Suhasini also holds the Responsibility of visiting government schools for providing the help possible to the kids. They visit government schools and ask if there is any help we can offer. To date, we have more than 12 schools under monitoring.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867647/events/campus_sy5izk.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Cleanliness Drive - JECRC Campus</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>Cleanliness is the state of being clean. Staying clean is as important as eating, sleep, drink etc. Keeping the environment clean should be a daily habit of a human being. Team Soch runs much regular cleanliness drives in Jaipur not only to clean the point but also they can provide the proper awareness of people towards a healthy and clean environment. Team soch have run drives on JECRC Campus, many parks, many public areas so that they can aware people at their best as cleanliness of any kind have equal importance.</p>
+  </div>
+</div>
+
+</div>
+
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867650/events/bird_u3tady.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">Bird Feeder</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>The scorching heat of the summer season makes it more difficult for the birds to get their food or water. After seeing a lot of pigeons dying due to scarcity of water, our young minds from Zarurat decided to install bird feeders throughout the campus. Also, our scholars make sure to fill them every day with fresh water.</p>
+  </div>
+</div>
+
+</div>
+            
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867644/events/cpr_akuccz.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">CPR Event</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>CPR event is one of the biggest and most successful events organised by Soch. It is a workshop where renowned doctors visit the campus to train young minds on the technique of CPR. To date, we have a trained army of more than 500 students of our institute trained in CPR.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="item">
+  <div class="image">
+  <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625867668/events/women_of0wmy.png" alt="" data-pagespeed-url-hash="2693087192" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+  <h3 class="FT-popin">International Women's Day</h3>
+</div>
+<div class="content">
+  <div class="readmore-content">
+    <p>These two days are celebrated with great pleasure by team Suhasini. They try to create more and more awareness among the people about girl child on this day. They tell how a woman plays an important role in one's life by many plays and rallies. Through the art of dance, plays etc they try to create a beautiful impact on these days.</p>
+  </div>
+</div>
+
+</div>
+                
+               
+            </div>
+        </div>
+        
+      </section>
+   </main>
+  <!-- footer-->
+
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <img id="img" src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625866316/logo_lye5ke.png">
+        </div>
+        <div class="media-icons">
+          <a href="https://twitter.com/abhyudayajecrc/"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/abhyudayajecrc"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">About Us</li>
+          <li><a href="org.html">Organisation</a></li>
+          <li><a href="boardmember.html">Board Members</a></li>
+          <li><a href="team.html">Team Members</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Quick Links</li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="story.html">Success Story</a></li>
+          <li><a href="aboutus.html">Our Work</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Events</li>
+          <li><a href="form.html">Join Us</a></li>
+          <li><a href="events.html">Campaigns</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Contact Us</li>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:socialinitiatives@jecrcu.edu.in">contact@abhyudaya</a></li>
+
+
+          <li><i class="fa fa-phone-square" aria-hidden="true"></i><a href="#">+011-123456</a></li>
+        </ul>
+
+        <ul class="box input-box">
+          <li class="link_name">Subscribe</li>
+            <form  action="https://formspree.io/f/mleawavd"
+          method="POST">
+            <li><input type="text" name="email" placeholder="Enter your email"></li>
+          <li><input type="submit" value="Subscribe"></li>
+          </form>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2021 <a href="#">Abhyudaya</a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+    </body>
+</html>

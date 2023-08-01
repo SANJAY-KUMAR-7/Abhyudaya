@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625866316/icons_krea5q.png">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/Team-Grid.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+    <title>Gallery</title>
+  </head>
+  <body>
+    <div class="nav-bar" id="nav-bar">
+        <div class="max-width">
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+            <div class="logo"><a href="index.html"><img class="logo" src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625866316/logo_lye5ke.png"></a> </div>
+          <ul class="links nav-ul ">
+            <li>
+              <a href="aboutus.html" class="desktop-link">ABOUT US</a>
+              <input type="checkbox" id="show-about">
+              <label for="show-about"><a href="aboutus.html">ABOUT US</a><span style="color: #fff;" class="open-menu fa fa-plus"></span></label>
+              <ul>
+                <li><a class="drop" href="org.html">ORGANISATIONS</a></li>
+                <li><a class="drop" href="boardmember.html">BOARD MEMBERS</a></li>
+                <li><a class="drop" href="team.html">TEAM MEMBERS</a></li>
+                <li><a class="drop" href="testimonials.html">TESTIMONIALS</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="story.html" class="desktop-link">WHAT WE DO</a>
+              <input type="checkbox" id="show-work">
+              <label for="show-work" style="padding-left: 35px;">WHAT WE DO</label>
+              <ul>
+                <li><a class="drop" href="health.html">HEALTH</a></li>
+                <li><a class="drop" href="education.html">EDUCATION</a></li>
+                <li><a class="drop" href="environment.html">ENVIRONMENT</a></li>
+                <li><a class="drop" href="women.html">GIRL CHILD</a></li>
+                <li><a class="drop" href="story.html">SUCCESS STORY</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="events.html" class="desktop-link">EVENTS</a>
+              <input type="checkbox" id="show-events">
+              <label for="show-events" style="padding-left: 35px;">EVENTS</label>
+              <ul>
+                <li><a class="drop" href="events.html">CAMPAIGNS</a></li>
+                <li><a class="drop" href="online.html">VIRTUAL</a></li>
+                <li><a class="drop" href="gallery.html">GALLERY</a></li>
+                <li><a class="drop" href="Video Gallery.html">VIDEO GALLERY</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="form.html" class="desktop-link">JOIN US</a>
+              <input type="checkbox" id="show-get">
+              <label for="show-get"><a href="form.html">JOIN US</a></label>
+            </li>
+            <li>
+              <a href="contact.html" class="desktop-link">CONTACT US</a>
+              <input type="checkbox" id="show-features">
+              <label for="show-features" style="margin-top: -30px;"><a href="contact.html">CONTACT US</a></label>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+        </div>
+  </div>
+  <main id="maincontent" class="stories" style="margin-top: 100px;">
+        <section>
+            <div class="hero-banner">
+                <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625919190/gallery/gallery_oqr8em.png" alt="stories" data-pagespeed-url-hash="3203955268" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <div class="hero-content">
+                    <h1>GALLERY</h1>
+                </div>
+            </div>
+        </section>
+      <header class="gallery">
+        <ul class="indicator" >
+          <li data-filter="All" class="active"><a href="#">All</a></li>
+          <li data-filter="Events"><a href="#">Events</a></li>
+          <li data-filter="Festivals"><a href="#">Festivals</a></li>
+          <li data-filter="Campaigns"><a href="#">Campaigns</a></li>
+        </ul>
+      </header>
+
+      <div class="parts">
+        <ul class="items" >
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809071/gallery/NEW/_MG_4391_yh79k2.jpg" alt="Events" />
+          </li>
+
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809072/gallery/NEW/_MG_4411_nltmxa.jpg" alt="Events" />
+          </li>
+
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809071/gallery/NEW/_MG_4410_pcrrmc.jpg" alt="Events" />
+          </li>
+
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809071/gallery/NEW/_MG_4205_ndivgz.jpg" alt="Events" />
+          </li>
+
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809069/gallery/NEW/VALUE_pyuifl.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809067/gallery/NEW/WhatsApp_Image_2020-11-04_at_12.38.57_PM_hqatkz.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809060/gallery/NEW/Screenshot_20191019-091309_rlzbal.png" alt="Events" />
+          </li>
+
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809060/gallery/NEW/Screenshot_20191019-091248_mkfkug.png" alt="Events" />
+          </li>
+
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809057/gallery/NEW/lokesh_akg1un.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809059/gallery/NEW/PicsArt_10-08-09.02.56_ikxggs.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809060/gallery/NEW/PicsArt_10-07-04.11.22_cnqx8q.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809060/gallery/NEW/Screenshot_20191213-220211_Instagram_eorlzj.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809057/gallery/NEW/IMG_9792_bpx8m6.jpg" alt="Events" />
+          </li>
+
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809055/gallery/NEW/IMG_8577_jday6b.jpg" alt="Events" />
+          </li>
+
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809054/gallery/NEW/IMG_4710_bb3fxb.jpg" alt="Events" />
+          </li>
+
+          <li data-category="Events">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809054/gallery/NEW/IMG_4088_bxi96u.jpg" alt="Events" />
+          </li>
+         
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809050/gallery/NEW/IMG_4094_gpkewl.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809049/gallery/NEW/IMG_4036_cqdc4t.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809048/gallery/NEW/IMG_4026_w01zol.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Campaigns">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626809048/gallery/NEW/IMG_4019_t2rm7i.jpg" alt="Campaigns" />
+          </li>
+
+          <li data-category="Festivals">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626808390/gallery/NEW/IMG20190902164712_huz7dn.jpg" alt="Festivals" />
+          </li>
+
+          <li data-category="Festivals">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626808458/gallery/NEW/IMG_20190809_120603_bo9uor.jpg" alt="Festivals" />
+          </li>
+
+          <li data-category="Festivals">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626808462/gallery/NEW/IMG_20190809_121905_qeoaxs.jpg" alt="Festivals" />
+          </li>
+
+          <li data-category="Festivals">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626808457/gallery/NEW/IMG_20190809_121557_lafqtt.jpg" alt="Festivals" />
+          </li>
+        
+          <li data-category="Festivals">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626808469/gallery/NEW/IMG_20190809_122113_no54lm.jpg" alt="Festivals" />
+          </li>
+
+          <li data-category="Festivals">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626808700/gallery/NEW/IMG_20190902_163921_yd67dj.jpg" alt="Festivals" />
+          </li>
+        
+          <li data-category="Festivals">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626808699/gallery/NEW/IMG_20190902_162933_en4pgu.jpg" alt="Festivals" />
+          </li>
+
+          <li data-category="Festivals">
+            <img src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1626808706/gallery/NEW/IMG_20190902_164255_tprakb.jpg" alt="Festivals" />
+          </li>
+        
+        
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <img id="img" src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625866316/logo_lye5ke.png">
+          </div>
+          <div class="media-icons">
+            <a href="https://twitter.com/abhyudayajecrc/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/abhyudayajecrc"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">About Us</li>
+            <li><a href="org.html">Organisation</a></li>
+            <li><a href="boardmember.html">Board Members</a></li>
+            <li><a href="team.html">Team Members</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Quick Links</li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="story.html">Success Story</a></li>
+            <li><a href="aboutus.html">Our Work</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Events</li>
+            <li><a href="form.html">Join Us</a></li>
+            <li><a href="events.html">Campaigns</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Contact Us</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:socialinitiatives@jecrcu.edu.in">contact@abhyudaya</a></li>
+
+  
+            <li><i class="fa fa-phone-square" aria-hidden="true"></i><a href="#">+011-123456</a></li>
+          </ul>
+  
+          <ul class="box input-box">
+            <li class="link_name">Subscribe</li>
+              <form  action="https://formspree.io/f/mleawavd"
+          method="POST">
+            <li><input type="text" name="email" placeholder="Enter your email"></li>
+          <li><input type="submit" value="Subscribe"></li>
+          </form>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright © 2021 <a href="#">Abhyudaya</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  
+  </body>
+</html>
+
+<script type="text/javascript">
+  let indicator = document.querySelector(".indicator").children;
+  let main = document.querySelector(".items").children;
+
+  for (let i = 0; i < indicator.length; i++) {
+    indicator[i].onclick = function () {
+      for (let x = 0; x < indicator.length; x++) {
+        indicator[x].classList.remove("active");
+      }
+      this.classList.add("active");
+      const displayItems = this.getAttribute("data-filter");
+
+      for (let z = 0; z < main.length; z++) {
+        main[z].style.transform = "scale(0)";
+        setTimeout(() => {
+          main[z].style.display = "none";
+        }, 500);
+        if (
+          (main[z].getAttribute("data-category") == displayItems) ||
+          displayItems == "All"
+        ) {
+          main[z].style.transform = "scale(1)";
+          setTimeout(() => {
+            main[z].style.display = "block";
+          }, 500);
+        }
+      }
+    };
+  }
+</script>

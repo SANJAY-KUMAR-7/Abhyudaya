@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Join US</title>
+    <link rel="icon" href="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625866316/icons_krea5q.png">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+    <div class="nav-bar" id="nav-bar">
+        <div class="max-width">
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+            <div class="logo"><a href="index.html"><img class="logo" src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625866316/logo_lye5ke.png"></a> </div>
+          <ul class="links nav-ul ">
+            <li>
+              <a href="aboutus.html" class="desktop-link">ABOUT US</a>
+              <input type="checkbox" id="show-about">
+              <label for="show-about"><a href="aboutus.html">ABOUT US</a><span style="color: #fff;" class="open-menu fa fa-plus"></span></label>
+              <ul>
+                <li><a class="drop" href="org.html">ORGANISATIONS</a></li>
+                <li><a class="drop" href="boardmember.html">BOARD MEMBERS</a></li>
+                <li><a class="drop" href="team.html">TEAM MEMBERS</a></li>
+                <li><a class="drop" href="testimonials.html">TESTIMONIALS</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="story.html" class="desktop-link">WHAT WE DO</a>
+              <input type="checkbox" id="show-work">
+              <label for="show-work" style="padding-left: 35px;">WHAT WE DO</label>
+              <ul>
+                <li><a class="drop" href="health.html">HEALTH</a></li>
+                <li><a class="drop" href="education.html">EDUCATION</a></li>
+                <li><a class="drop" href="environment.html">ENVIRONMENT</a></li>
+                <li><a class="drop" href="women.html">GIRL CHILD</a></li>
+                <li><a class="drop" href="story.html">SUCCESS STORY</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="events.html" class="desktop-link">EVENTS</a>
+              <input type="checkbox" id="show-events">
+              <label for="show-events" style="padding-left: 35px;">EVENTS</label>
+              <ul>
+                <li><a class="drop" href="events.html">CAMPAIGNS</a></li>
+                <li><a class="drop" href="online.html">VIRTUAL</a></li>
+                <li><a class="drop" href="gallery.html">GALLERY</a></li>
+                <li><a class="drop" href="Video Gallery.html">VIDEO GALLERY</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="form.html" class="desktop-link">JOIN US</a>
+              <input type="checkbox" id="show-get">
+              <label for="show-get"><a href="form.html">JOIN US</a></label>
+            </li>
+            <li>
+              <a href="contact.html" class="desktop-link">CONTACT US</a>
+              <input type="checkbox" id="show-features">
+              <label for="show-features" style="margin-top: -30px;"><a href="contact.html">CONTACT US</a></label>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+        </div>
+  </div>
+    <form action="https://formspree.io/f/mqkwdwjk" method="post" autocomplete="on" style="margin: 200px 0;">
+        <div class="container-form">
+            <h1>Join Us</h1>
+            <p>*Please fill in this form to contact with us</p>
+            <hr>
+
+            <label for="Name"><b>Name</b></label><span class="required"> *</span>
+            <input type="text" placeholder="Name" name="Name" id="Name" required>
+
+            <label for="email"><b>Email</b></label><span class="required"> *</span>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            <br>
+
+            <label for="Phone"><b>Phone</b></label><span class="required"> *</span>
+            <input type="number" placeholder="Enter Phone Number" name="number" id="number" required>
+            <br>
+
+            <label for="Date of Birth"><b>Date of Birth</b></label><span class="required"> *</span>
+            <input type="date" placeholder="Enter DOB" name="DOB" id="DOB" required>
+            <br>
+
+            <label for="Current City"><b>Current City</b></label><span class="required"> *</span>
+            <input type="text" placeholder="Enter City" name="City" id="City" required>
+
+            <label for="How you wish to help"><b>How you wish to help</b></label><span class="required"> *</span>
+            <input type="text" placeholder="" name="help" id="help">
+
+            <label for="I am a"><b>I am a</b></label><span class="required"> *</span><br>
+
+            <input type="radio" id="School Student" name="Field" value="School Student">
+            <label for="School Student">School Student</label>
+<br>
+            <input type="radio" id="College Student" name="Field" value="College Student">
+            <label for="College Student">College Student</label>
+            <br>
+            <input type="radio" id="Working professional" name="Field" value="Working professional">
+            <label for="Working professional">Working professional</label>
+            <br>
+            <input type="radio" id="Home Maker" name="Field" value="Home Maker">
+            <label for="Home Maker">Home Maker</label><br>
+            
+            <input type="radio" id="Teacher" name="Field" value="Teacher">
+            <label for="Teacher">Teacher</label>
+            <br>
+            <input type="radio" id="other" name="Field" value="other">
+            <label for="other">Other</label><br></br>
+
+            <hr>
+
+            <button type="submit" name="submit" class="registerbtn"><strong>Submit</strong></button>
+        </div>
+    </form>
+
+   
+
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <img id="img" src="https://res.cloudinary.com/dm8plkfnz/image/upload/v1625866316/logo_lye5ke.png">
+            </div>
+            <div class="media-icons">
+              <a href="https://twitter.com/abhyudayajecrc/"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/abhyudayajecrc"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">About Us</li>
+              <li><a href="org.html">Organisation</a></li>
+              <li><a href="boardmember.html">Board Members</a></li>
+              <li><a href="team.html">Team Members</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Quick Links</li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="story.html">Success Story</a></li>
+              <li><a href="aboutus.html">Our Work</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Events</li>
+              <li><a href="form.html">Join Us</a></li>
+              <li><a href="events.html">Campaigns</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Contact Us</li>
+              <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:socialinitiatives@jecrcu.edu.in">contact@abhyudaya</a></li>
+
+    
+              <li><i class="fa fa-phone-square" aria-hidden="true"></i><a href="#">+011-123456</a></li>
+            </ul>
+    
+            <ul class="box input-box">
+  <li class="link_name">Subscribe</li>
+    <form  action="https://formspree.io/f/mleawavd"
+          method="POST">
+            <li><input type="text" name="email" placeholder="Enter your email"></li>
+          <li><input type="submit" value="Subscribe"></li>
+          </form>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2021 <a href="#">Abhyudaya</a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html>
